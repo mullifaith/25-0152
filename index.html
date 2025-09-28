@@ -1,27 +1,236 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Your Favourite Designer Bags</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Favourite Designer Bags</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #444;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 0;
+      list-style: none;
+    }
+
+    article {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+    }
+
+    article a {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    article a:hover {
+      text-decoration: underline;
+    }
+
+    article img {
+      margin-top: 10px;
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    aside {
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border: 2px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    table caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    table th, table td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Designer bags</h1>
-<p>Heyyy, would you like to get a bag today? Great, cause you came to the right site!!! </p>
-<h2>About</h2>
-<p>This website shows all the Designer/Luxury Bags.</p>
-<p> Click below to go to the original stores</p>
-<ul><li><a href="https://www.chanel.com/us/fashion/handbags/c/1x1x1/">Channel </a>
-          <img src="https://www.chanel.com/images///f_auto,q_auto:good,dpr_1.1/w_3200/-9572545101854.jpg"alt="Chanel"width="300"></li>
-<li><a href="https://us.louisvuitton.com/eng-us/women/handbags/all-handbags/_/N-tfr7qdp"> Louis Vuitton</a>
-          <img scr="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-all-in-one-pm--M25890_PM2_Front%20view.png"alt="Luis Vuitton"width="300"></li>
-<li><a href= "https://www.coachoutlet.com/shop/bags/view-all">Coach </a>
-          <img src="https://coach.scene7.com/is/image/Coach/cv933_imxaq_a0?$mobileProductTile$"alt="coach"width="300"></li>
-<li><a href="https://www.bottegaveneta.com/en-gb/women/women-bags">Bottega Veneta</a> 
-          <img src="https://bottega-veneta.dam.kering.com/asset/9b996254-1adc-4694-b326-9694f51076b5/Medium/07.jpg"alt="Bottega Veneta"width="300"></li>
-<li><a href="https://www.versace.com/au/en/women/bags/?gclid=CjwKCAjwlt7GBhAvEiwAKal0cm_qrFkmNW3iDStYm4OdSF-3fNvTTesKRo2lbMmh4a7_qtd6BSYZnBoCKdoQAvD_BwE&gbraid=0AAAAADnzP0btrGTJjKRdYdXOgvR5WTpQP&gad_campaignid=6608619505&gad_source=1&s_kwcid=AL%216089%213%21Keyword%21EXACT%21%21g%21%21versace&utm_term=versace&utm_adgroup=Exact&utm_campaignname=01_Top_Brand_Exact_INT-WW&wt_mc=_I.SEM.Google.Text.01_Top_Brand_Exact_INT-WW.Exact&gclsrc=aw.ds">Versace</a
-          <img src="https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw3c9335fb/original/90_1020089-1A16004_1R70V_22_Virtus~Small~Shoulder~Bag-Shoulder~~Crossbody-Versace-online-store_0_0.jpg"alt="versace"width="300"></li>
-<li><a href="https://www.hermes.com/us/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|">Hermès</a>
-          <img scr="https://assets.hermes.com/is/image/hermesproduct/085408CCAC_front_wm_1.jpg"alt="Hermès"width="300"></li></ul>
-<a href="https://mullifaith.github.io/25-0152/">GitHub Link</a>
+  <header>
+    <h1>Designer Bags</h1>
+    <p>Heyyy, would you like to get a bag today? Great, because you came to the right site!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#bags">Bags</a>
+    <a href="#prices">Price Guide</a>
+    <a href="#github">GitHub</a>
+  </nav>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>This website showcases Designer and Luxury Bags.</p>
+      <p>Click below to visit the official stores:</p>
+    </section>
+
+    <!-- Bags Section -->
+    <section id="bags">
+      <h2>Featured Bags</h2>
+      <ul>
+        <li>
+          <article>
+            <a href="https://www.chanel.com/us/fashion/handbags/c/1x1x1/" target="_blank">Chanel</a>
+            <img src="https://www.chanel.com/images///f_auto,q_auto:good,dpr_1.1/w_3200/-9572545101854.jpg" alt="Chanel Bag">
+          </article>
+        </li>
+        <li>
+          <article>
+            <a href="https://us.louisvuitton.com/eng-us/women/handbags/all-handbags/_/N-tfr7qdp" target="_blank">Louis Vuitton</a>
+            <img src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-all-in-one-pm--M25890_PM2_Front%20view.png" alt="Louis Vuitton Bag">
+          </article>
+        </li>
+        <li>
+          <article>
+            <a href="https://www.coachoutlet.com/shop/bags/view-all" target="_blank">Coach</a>
+            <img src="https://coach.scene7.com/is/image/Coach/cv933_imxaq_a0?$mobileProductTile$" alt="Coach Bag">
+          </article>
+        </li>
+        <li>
+          <article>
+            <a href="https://www.bottegaveneta.com/en-gb/women/women-bags" target="_blank">Bottega Veneta</a>
+            <img src="https://bottega-veneta.dam.kering.com/asset/9b996254-1adc-4694-b326-9694f51076b5/Medium/07.jpg" alt="Bottega Veneta Bag">
+          </article>
+        </li>
+        <li>
+          <article>
+            <a href="https://www.versace.com/au/en/women/bags/" target="_blank">Versace</a>
+            <img src="https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw3c9335fb/original/90_1020089-1A16004_1R70V_22_Virtus~Small~Shoulder~Bag-Shoulder~~Crossbody-Versace-online-store_0_0.jpg" alt="Versace Bag">
+          </article>
+        </li>
+        <li>
+          <article>
+            <a href="https://www.hermes.com/us/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|" target="_blank">Hermès</a>
+            <img src="https://assets.hermes.com/is/image/hermesproduct/085408CCAC_front_wm_1.jpg" alt="Hermès Bag">
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Table Section -->
+    <section id="prices">
+      <h2>Bag Price Ranges</h2>
+      <table>
+        <caption>Designer Bags Price Guide</caption>
+        <tr>
+          <th>Brand</th>
+          <th>Estimated Price Range</th>
+        </tr>
+        <tr><td>Chanel</td><td>$4,000 - $10,000</td></tr>
+        <tr><td>Louis Vuitton</td><td>$2,000 - $6,000</td></tr>
+        <tr><td>Coach</td><td>$150 - $500</td></tr>
+        <tr><td>Bottega Veneta</td><td>$2,500 - $8,000</td></tr>
+        <tr><td>Versace</td><td>$1,000 - $3,500</td></tr>
+        <tr><td>Hermès</td><td>$9,000 - $50,000+</td></tr>
+      </table>
+    </section>
+
+    <!-- Aside Section -->
+    <aside>
+      <h3>Did You Know?</h3>
+      <p>The Hermès Birkin bag is one of the most expensive handbags in the world, sometimes selling for over $100,000 due to its rarity and craftsmanship.</p>
+    </aside>
+
+    <!-- GitHub Link -->
+    <section id="github">
+      <p style="text-align:center;">
+        <a href="https://mullifaith.github.io/25-0152/" target="_blank">Visit My GitHub Page</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Designer Bags Showcase | Built by 
+      <a href="https://mullifaith.github.io/25-0152/" target="_blank">Faith Mulli</a>
+    </p>
+  </footer>
+
 </body>
 </html>
