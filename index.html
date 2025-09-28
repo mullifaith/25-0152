@@ -6,25 +6,29 @@
   <title>Your Favourite Designer Bags</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fafafa;
+      background-color: #fddde6; /* Baby Pink Background */
       color: #333;
       line-height: 1.6;
     }
 
     header {
-      background: #444;
+      background: #ff5c8d;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 30px;
+      border-bottom: 5px solid #ff94b8;
     }
 
     nav {
-      background: #222;
-      padding: 10px;
+      background: #ff94b8;
+      padding: 12px;
       text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
 
     nav a {
@@ -32,10 +36,11 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      transition: color 0.3s;
     }
 
     nav a:hover {
-      text-decoration: underline;
+      color: #444;
     }
 
     main {
@@ -59,20 +64,21 @@
     article {
       background: #fff;
       padding: 15px;
-      border-radius: 10px;
+      border-radius: 12px;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease-in-out;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s;
     }
 
     article:hover {
-      transform: translateY(-5px);
+      transform: translateY(-7px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
     }
 
     article a {
       font-weight: bold;
       font-size: 1.1em;
-      color: #0073e6;
+      color: #ff5c8d;
       text-decoration: none;
     }
 
@@ -83,45 +89,59 @@
     article img {
       margin-top: 10px;
       max-width: 100%;
-      border-radius: 8px;
+      border-radius: 10px;
     }
 
     aside {
-      background: #f0f0f0;
-      padding: 15px;
-      border-radius: 8px;
+      background: #ffe6ef;
+      padding: 20px;
+      border-radius: 10px;
       margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
 
     table {
-      width: 80%;
+      width: 85%;
       margin: 20px auto;
-      border: 2px solid black;
+      border: 2px solid #ff5c8d;
       border-collapse: collapse;
       text-align: center;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
     }
 
     table caption {
       caption-side: top;
       font-weight: bold;
-      margin-bottom: 8px;
+      margin-bottom: 12px;
+      color: #ff5c8d;
+      font-size: 1.2em;
     }
 
     table th, table td {
-      border: 1px solid black;
-      padding: 8px;
+      border: 1px solid #ff94b8;
+      padding: 10px;
+    }
+
+    table th {
+      background: #ff94b8;
+      color: white;
     }
 
     footer {
-      background: #222;
+      background: #ff5c8d;
       color: white;
       text-align: center;
       padding: 15px;
+      margin-top: 20px;
+      border-top: 5px solid #ff94b8;
     }
 
     footer a {
-      color: #ffcc00;
+      color: #ffeb99;
       text-decoration: none;
+      font-weight: bold;
     }
 
     footer a:hover {
@@ -185,13 +205,6 @@
             <img src="https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw3c9335fb/original/90_1020089-1A16004_1R70V_22_Virtus~Small~Shoulder~Bag-Shoulder~~Crossbody-Versace-online-store_0_0.jpg" alt="Versace Bag">
           </article>
         </li>
-        <li>
-          <article>
-            <a href="https://www.hermes.com/us/en/category/women/bags-and-small-leather-goods/bags-and-clutches/#|" target="_blank">Hermès</a>
-            <img src="birkin.jpeg" alt="Description of image" width="300" height="200">
- alt="Hermès Bag">
-          </article>
-        </li>
       </ul>
     </section>
 
@@ -209,7 +222,6 @@
         <tr><td>Coach</td><td>$150 - $500</td></tr>
         <tr><td>Bottega Veneta</td><td>$2,500 - $8,000</td></tr>
         <tr><td>Versace</td><td>$1,000 - $3,500</td></tr>
-        <tr><td>Hermès</td><td>$9,000 - $50,000+</td></tr>
       </table>
     </section>
 
