@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Colored Tables Assignment</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 40px;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 40px;
+  }
+
+  th, td {
+    border: 1px solid #482ade00;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #d22ade;
+    color: white;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) {
+    background-color: #7f59c6; /* light blue for alternating rows */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #6c17a9;
+  }
+
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+
+  <!-- First Table: Student Information -->
+  <table>
+    <caption>Student Information</caption>
+    <tr>
+      <th>Student ID</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Course</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td>ST101</td>
+      <td>Faith Mulli</td>
+      <td>Female</td>
+      <td>Computer Science</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>ST102</td>
+      <td>John Kamau</td>
+      <td>Male</td>
+      <td>Information Technology</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>ST103</td>
+      <td>Mary Atieno</td>
+      <td>Female</td>
+      <td>Software Engineering</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ST104</td>
+      <td>David Otieno</td>
+      <td>Male</td>
+      <td>Cyber Security</td>
+      <td>4</td>
+    </tr>
+  </table>
+
+  <!-- Second Table: Course Details -->
+  <table>
+    <caption>Course Details</caption>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Name</th>
+      <th>Credit Hours</th>
+      <th>Instructor</th>
+      <th>Semester</th>
+    </tr>
+    <tr>
+      <td>CS101</td>
+      <td>Introduction to Programming</td>
+      <td>3</td>
+      <td>Dr. Mwangi</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CS204</td>
+      <td>Database Systems</td>
+      <td>4</td>
+      <td>Ms. Wanjiru</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>IT210</td>
+      <td>Networking Fundamentals</td>
+      <td>3</td>
+      <td>Mr. Otieno</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>CS301</td>
+      <td>Web Design & Development</td>
+      <td>3</td>
+      <td>Mrs. Achieng</td>
+      <td>3</td>
+    </tr>
+  </table>
+
+</body>
+</html>
